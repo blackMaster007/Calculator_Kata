@@ -18,6 +18,8 @@ public class Main {
             System.out.println("Используются разные системы счисления");
         }catch (RestrictionException re){
             System.out.println("Числа должны лежать в диапазоне от 1 до 10");
+        }catch (MuchException m){
+            System.out.println("Вы ввели более двух операндов");
         }
     }
 }
